@@ -1,5 +1,7 @@
 package org.test;
 
+import java.util.Scanner;
+
 public class Child implements parent1,parent2 {
 
 	@Override
@@ -27,8 +29,6 @@ public class Child implements parent1,parent2 {
 		
 	}
 	
-	
-			
 	
 	
 	
