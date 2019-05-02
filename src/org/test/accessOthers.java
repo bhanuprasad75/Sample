@@ -27,4 +27,9 @@ public class accessOthers {
 	    	  System.out.println("Not an palindrome");
 	    	  }
 	}
+	public void bhanu() {
+	System.out.println("bhanu");
+	accessOthers ac=new accessOthers();
+	ac.bhanu();
+	}
 }
