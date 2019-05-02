@@ -27,9 +27,15 @@ public class accessOthers {
 	    	  System.out.println("Not an palindrome");
 	    	  }
 	}
+
+private static void Sysout() {
+		// TODO Auto-generated method stub
+		System.out.println("summa");
+		accessOthers.Sysout();}
+
 	public void bhanu() {
-	System.out.println("bhanu");
-	accessOthers ac=new accessOthers();
-	ac.bhanu();
+			System.out.println("bhanu");
+			accessOthers ac=new accessOthers();
+			ac.bhanu();
 	}
 }
