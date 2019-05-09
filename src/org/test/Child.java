@@ -7,6 +7,8 @@ public class Child implements parent1,parent2 {
 	@Override
 	public void exam3() {
 	System.out.println("5");
+	System.out.println("10");
+	System.out.println("15");
 		
 	}
 
