@@ -37,6 +37,28 @@ private static void Sysout() {
 			System.out.println("bhanu");
 			accessOthers ac=new accessOthers();
 			ac.bhanu();
+
 			System.out.println("Added");
+
+			
+			String num="";
+			String alp="";
+			String e="bhanuprasad123";
+			int len = e.length();
+			for (int i = 0; i < len; i++) {
+				char c = e.charAt(i);
+				if (Character.isDigit(c)) {
+					System.out.println(num=num+c);
+					
+				}
+				else {
+					System.out.println(alp=alp+c);
+				}
+					
+				
+			}
 	}
+	
+	
+	
 }
